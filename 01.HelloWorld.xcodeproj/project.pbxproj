@@ -331,6 +331,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = 01.HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -342,6 +343,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = 01.HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -401,6 +403,7 @@
 				95455E241B7C591B0087ABE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95455E251B7C591B0087ABE7 /* Build configuration list for PBXNativeTarget "01.HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +412,7 @@
 				95455E271B7C591B0087ABE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
